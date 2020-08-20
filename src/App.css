@@ -16,7 +16,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-@media(max-width: 320px){
+@media(max-width: 1200px){
     #search{
       display: none;
     }
@@ -76,3 +76,4 @@ body .bg-dark{
 .jumbotron button:hover {
   border: 2px solid white;
 }
+
