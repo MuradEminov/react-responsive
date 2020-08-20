@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
 .App {
   text-align: center;
-}
+} 
+
 
 .App-logo {
   height: 40vmin;
@@ -48,4 +52,27 @@ body  {
 
 body .bg-dark{
   background-color: #000000 !important;
+}
+
+.jumbotron {
+  background-image: url(https://cdn.pixabay.com/photo/2020/05/10/19/27/passage-5155252_960_720.jpg);
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover; 
+  padding-top: 50px; 
+  font-weight: bold; 
+  margin-top: 100px; 
+  margin-bottom: 100px; 
+  padding: 100px;
+  border-radius: 50px; 
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); 
+  color: white; 
+  font-family: 'Roboto', sans-serif;
+}
+.jumbotron button {
+  margin-top: 15%; 
+} 
+
+.jumbotron button:hover {
+  border: 2px solid white;
 }
